@@ -4,6 +4,7 @@ import { api } from "./axios";
 import { PostsContext } from "./PostsContext";
 import Header from "./Header";
 import Posts from "./Posts";
+import PostPage from "./PostPage";
 import NewPost from "./NewPost";
 
 function App() {
@@ -30,14 +31,15 @@ function App() {
   return (
     <Router>
       <main className="w-full min-h-svh">
-        <Header />
         <PostsContext.Provider
           value={{ posts, setPosts, formData, setFormData }}
         >
+          <Header />
           <article className="flex justify-center">
             <Routes>
               <Route path="/" element={<Posts />} />
-              <Route path="/new-post" element={<NewPost />} />
+              <Route path="/new-post/" element={<NewPost />} />
+              <Route path="postpage/:postId" element={<PostPage />} />
             </Routes>
           </article>
         </PostsContext.Provider>

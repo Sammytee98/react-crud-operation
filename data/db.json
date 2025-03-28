@@ -1,34 +1,14 @@
 {
   "posts": [
     {
-      "id": "6b32",
-      "title": "My name is Samuel",
-      "content": "I am a software developer from Nigeria. I am here to teach you how to make your first million simply by posting youtube automated videos."
-    },
-    {
-      "id": "1b38",
-      "title": "How to Fetch  Data Using Axios in JavaScript",
-      "content": "When we are trying to fetch data from a RestAPI in Javascript, we can either use the 'fetch' keyword or use axios"
-    },
-    {
       "id": "2a99",
       "title": "I am a software developer ",
       "content": "i am here to only test this Axios Post request"
     },
     {
-      "id": "e619",
-      "title": "The Future of Web Development in 2025",
-      "content": "Web development is evolving fast with AI, no-code, and advanced frameworks."
-    },
-    {
-      "id": "1a7c",
       "title": "5 JavaScript Tips for Beginners",
-      "content": "Getting started with JavaScript? Here are 5 essential tips to help you write cleaner, more efficient code."
-    },
-    {
-      "id": "755b",
-      "title": "Why Minimalist Web Design Works",
-      "content": "Minimalist web design helps focus user attention and improves readability."
+      "content": "Getting started with JavaScript? Here are 5 essential tips to help you write code cleaner.",
+      "id": "1a7c"
     }
   ]
 }
